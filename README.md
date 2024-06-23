@@ -17,12 +17,20 @@ bundle install
 yarn install
 ```
 
+### Configurando o Banco de Dados
+
+Para criar o banco de dados, execute:
+
+```bash
+rails db:create
+rails db:migrate
+```
+
 ### Rodando o Servidor
 Para iniciar o servidor Rails, use o comando:
 
 ```bash
-Copiar código
-rails server
+rails s
 ```
 
-Abra o navegador e acesse http://localhost:3000 para ver sua aplicação em funcionamento.
+Abra o navegador e acesse http://localhost:3000 para ver sua aplicação em funcionamento. Acesse a rota /products para criar um produto.
